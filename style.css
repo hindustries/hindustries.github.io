@@ -21,16 +21,16 @@ header {
     left: 0;
     width: 100%;
     z-index: 1000;
-    background: #42455a;
+    background: #000000;
     padding: 20px;
     text-align: center;
-    border-bottom: 1px solid #00c2cb;
+    border-bottom: 1px solid #ffffff;
 }
 
 header nav a {
     padding: 10px 20px;
     font-size: 2rem;
-    color: #e0ffff;
+    color: #ffffff;
     border-radius: 5px;
     letter-spacing: 0.5px;
 }
@@ -38,13 +38,13 @@ header nav a {
 header nav a:hover,
 header nav a.active {
     background: #00c2cb;
-    color: #42455a;
+    color: #000000;
     transition: 0.5s ease-out;
     letter-spacing: 2px;
 }
 
 body {
-    background: #42455a;
+    background: #000000;
 }
 
 section {
@@ -55,25 +55,25 @@ section {
 }
 
 section:nth-child(1) {
-    color: #e0ffff;
+    color: #ffffff;
 }
 
 section:nth-child(2) {
     color: #42455a;
-    background: #e0ffff;
+    background: #ffffff;
 }
 
 section:nth-child(3) {
-    color: #e0ffff;
+    color: #ffffff;
 }
 
 section:nth-child(4) {
     color: #42455a;
-    background: #e0ffff;
+    background: #ffffff;
 }
 
 section:nth-child(5) {
-    color: #e0ffff;
+    color: #ffffff;
 }
 
 section .container {
