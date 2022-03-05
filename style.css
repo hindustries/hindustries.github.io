@@ -21,30 +21,30 @@ header {
     left: 0;
     width: 100%;
     z-index: 1000;
-    background: #000000;
+    background: #42455a;
     padding: 20px;
     text-align: center;
-    border-bottom: 1px solid #505050;
+    border-bottom: 1px solid #00c2cb;
 }
 
 header nav a {
     padding: 10px 20px;
     font-size: 2rem;
-    color: #ffffff;
+    color: #e0ffff;
     border-radius: 5px;
     letter-spacing: 0.5px;
 }
 
 header nav a:hover,
 header nav a.active {
-    background: #ffffff;
-    color: #000000;
+    background: #00c2cb;
+    color: #42455a;
     transition: 0.5s ease-out;
     letter-spacing: 2px;
 }
 
 body {
-    background: #000000;
+    background: #42455a;
 }
 
 section {
@@ -55,25 +55,25 @@ section {
 }
 
 section:nth-child(1) {
-    color: #ffffff;
+    color: #e0ffff;
 }
 
 section:nth-child(2) {
-    color: #000000;
-    background: #ffffff;
+    color: #42455a;
+    background: #e0ffff;
 }
 
 section:nth-child(3) {
-    color: #ffffff;
+    color: #e0ffff;
 }
 
 section:nth-child(4) {
     color: #42455a;
-    background: #ffffff;
+    background: #e0ffff;
 }
 
 section:nth-child(5) {
-    color: #ffffff;
+    color: #e0ffff;
 }
 
 section .container {
@@ -99,8 +99,7 @@ section .text-container {
 section .text-container .text-box {
     margin: 20px;
     padding: 20px;
-    border-radius: 10px;
-    background: #c2c2c2;
+    background: #00c2cb;
 }
 
 section .text-container .text-box h3 {
