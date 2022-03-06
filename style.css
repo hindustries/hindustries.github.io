@@ -131,3 +131,7 @@ section .text-container .text-box h3 {
     transform: translateY(0);
     opacity: 1;
 }
+
+img {
+    border-radius: 10px;
+}
