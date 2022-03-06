@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Bauhaus 93", sans-serif;
+    font-family: Arial, sans-serif;
     scroll-behavior: smooth;
 }
 
@@ -24,27 +24,27 @@ header {
     background: #3f3f3f;
     padding: 20px;
     text-align: center;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 2px solid #d4d4d4;
 }
 
 header nav a {
     padding: 10px 20px;
     font-size: 2rem;
-    color: #ffffff;
+    color: #d4d4d4;
     border-radius: 5px;
     letter-spacing: 0.5px;
 }
 
 header nav a:hover,
 header nav a.active {
-    background: #00c2cb;
-    color: #000000;
+    background: #000000;
+    color: #d4d4d4;
     transition: 0.5s ease-out;
     letter-spacing: 2px;
 }
 
 body {
-    background: #000000;
+    background: #d4d4d4;
 }
 
 section {
@@ -59,21 +59,23 @@ section:nth-child(1) {
 }
 
 section:nth-child(2) {
-    color: #42455a;
+    color: #000000;
     background: #ffffff;
 }
 
 section:nth-child(3) {
-    color: #ffffff;
+    color: #000000;
 }
 
 section:nth-child(4) {
-    color: #42455a;
-    background: #ffffff;
+    color: #000000;
+    background: url("Images/hibk_002_blender.png") #d4d4d4;
+    background-size: cover;
+    border: 20px solid #ffffff;
 }
 
 section:nth-child(5) {
-    color: #ffffff;
+    color: #000000;
 }
 
 section .container {
@@ -99,7 +101,7 @@ section .text-container {
 section .text-container .text-box {
     margin: 20px;
     padding: 20px;
-    background: #00c2cb;
+    background: #ffffff;
     border-radius: 20px;
 }
 
@@ -117,6 +119,14 @@ section .text-container .text-box h3 {
     }
     section .text-container {
         flex-direction: column;
+    }
+}
+
+@media (max-width: 1200px) {
+    section:nth-child(4) {
+        color: #000000;
+        background: #d4d4d4;
+        border: 20px solid #ffffff;
     }
 }
 
