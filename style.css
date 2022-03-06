@@ -69,8 +69,9 @@ section:nth-child(3) {
 
 section:nth-child(4) {
     color: #000000;
-    background: url("Images/hibk_002_blender.png") #d4d4d4;
-    background-size: cover;
+    background: url("Images/Services_bck.png") #d4d4d4;
+    background-size: auto 100%;
+    background-position: center;
     border: 20px solid #ffffff;
 }
 
@@ -119,14 +120,6 @@ section .text-container .text-box h3 {
     }
     section .text-container {
         flex-direction: column;
-    }
-}
-
-@media (max-width: 1200px) {
-    section:nth-child(4) {
-        color: #000000;
-        background: #d4d4d4;
-        border: 20px solid #ffffff;
     }
 }
 
