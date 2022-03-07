@@ -43,6 +43,11 @@ header nav a.active {
     letter-spacing: 2px;
 }
 
+header nav img.logo-img {
+    border: 0px #000000;
+    float: left;
+}
+
 body {
     background: #d4d4d4;
 }
