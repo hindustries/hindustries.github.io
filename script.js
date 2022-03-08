@@ -52,7 +52,8 @@ function reveal() {
 }
 
 window.addEventListener("scroll", reveal);
-registerVideo("#bound-two", "#bound-two video")
+
 
 // To check the scroll position on page load
 reveal();
+registerVideo("#bound-two", "#bound-two video")

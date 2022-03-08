@@ -152,34 +152,3 @@ img {
     transform: translateY(0);
     opacity: 1;
 }
-
-#bound-one {
-    background: #d0d8db;
-}
-
-#bound-two {
-    background: #e60000;
-}
-
-#bound-three {
-    background: #D0D6B3;
-}
-
-.scroll-bound {
-    height: 500vh;
-}
-
-.scroll-bound .content {
-    height: 100vh;
-    width: 100%;
-    position: sticky;
-    top: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.scroll-bound video {
-    width: 80%;
-}
